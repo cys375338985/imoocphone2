@@ -1,0 +1,378 @@
+.header{
+
+    height: 80px;
+    background-color: #f7f7f7;
+}
+.header__wrap{
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    height: 100%;
+}
+.header__logo{
+    position: absolute;
+    width: 150px;
+    height: 38px;
+    color: #07111b;
+    margin: -19px auto;
+    top: 50%;
+    font-size: 20px;
+    line-height: 38px;
+    text-indent: 50px;
+    background: url("../img/logo.png") left center no-repeat;
+    background-size: 38px 38px;
+    left: 20px;
+
+}
+.header__nav{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: -19px;
+    height: 38px;
+}
+.header__nav-item{
+    position: relative;
+    display: block;
+    float: left;
+    margin-left: 22px;
+    margin-right: 22px;
+    height: 38px;
+    line-height: 38px;
+    color: #07111b;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+}
+.header__nav-item_active{
+    /*border-bottom: 2px solid #f04747;*/
+    color: #f04747;
+}
+.header__nav-item_active::after{
+    content: ' ';
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background-color: #f04747;
+
+}
+.header__nav-item-btn{
+    width: 90px;
+    background: #07111b;
+    color: #f7f7f7;
+    border-radius: 3px;
+
+}
+.screen{
+    height: 800px;
+}
+.screen-1{
+    position: relative;
+    background-color: #e7e7e7;
+    background: url("../img/bg-screen-1.png") no-repeat center;
+    background-size: cover;
+
+}
+.screen-1 > .screen_title{
+    position: absolute;
+    display: inline-block;
+    font-weight: lighter;
+    width: 650px;
+    left: 0;
+    right: 0;
+    top: 152px;
+    font-size: 48px;
+    color: #4d555d;
+    margin: 0 auto;
+}
+.screen-1 > .screen_title >span{
+    display: inline-block;
+    color: #f04747;
+    text-align: center;
+    font-weight: lighter;
+    padding: 20px;
+    width: 200px;
+    height: 100%;
+}
+.screen-1>.img{
+    position: absolute;
+    width: 1375px;
+    height: 305px;
+    background: url("../img/screen-1-phone.png") no-repeat center;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    bottom: 181px;
+    margin: 0 auto 0 auto;
+
+}
+.screen-1>.img-shadow{
+    position: absolute;
+    width: 1233px;
+    height: 411px;
+    opacity: 0.75;
+    background: url("../img/screen-1-shadow.png") no-repeat center;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto 0 auto;
+}
+.screen-2{
+    position: relative;
+    overflow: hidden;
+    background-color: #FAFAFA;
+
+}
+.screen-2>.screen-title{
+    display: block;
+    font-size: 48px;
+    font-weight: lighter;
+    color: #f04747;
+    text-align: center;
+    padding-top: 90px;
+}
+.screen-2 > .screen-desc{
+    display: block;
+    text-align: center;
+    line-height: 28px;
+    font-size: 14px;
+    padding-top: 25px;
+
+}
+
+.screen-2>.img{
+    position: absolute;
+    width: 928px;
+    height: 873px;
+    background: url("../img/screen-2-phone.png") no-repeat;
+    top: 270px;
+    left: 0;
+    right: 0;
+    margin: 0 auto 0 auto;
+}
+.point{
+    position: absolute;
+    width: 108px;
+    height: 22px;
+    font-size: 22px;
+    line-height: 22px;
+    color: #4d555d;
+
+}
+.point_right{
+    padding-right: 112px;
+    text-align: right;
+    background: url("../img/icon-point-right.png") no-repeat center right;
+}
+.point:nth-of-type(1){
+
+     top: 182px;
+     left: -127px;
+ }
+.point:nth-of-type(2){
+
+     top: 39px;
+     right: 122px;
+ }
+.point:nth-of-type(3){
+    top: 340px;
+    right: 22px;
+
+}
+.point_left{
+    padding-left: 112px;
+    text-align: left;
+    background: url("../img/icon-point-left.png") no-repeat center left;
+}
+
+.screen-3{
+    background:url("../img/bg-screen-3.png") no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+}
+.screen-3>.screen-wrap{
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin:0 auto;
+}
+.screen-3>.screen-wrap>.screen-title {
+    position: absolute;
+    top: 90px;
+    font-size: 46px;
+    color: #f9f4f4;
+}
+.screen-3>.screen-wrap>.screen-desc{
+     position: absolute;
+     top: 170px;
+     font-size: 14px;
+     color: #f9f4f4;
+     line-height: 27px;
+     margin-top: 29px;
+
+}
+.screen-3>.screen-wrap>.img{
+    position: absolute;
+    width: 729px;
+    height: 900px;
+    background: url("../img/screen-3-phone.png") no-repeat;
+    top: 270px;
+    right: 0;
+    margin: 0 auto 0 auto;
+}
+.screen-3>.screen-wrap>.featues{
+    position: absolute;
+    display: block;
+    top: 397px;
+    left: 0;
+    width: 340px;
+    height: 321px;
+}
+.screen-3>.screen-wrap>.featues>.featues-item{
+    display: block;
+    float: left;
+    width: 140px;
+    height: 120px;
+    border: 1px solid #c87173;
+    border-radius: 3px;
+    margin: 0 24px 24px 0;
+}
+.screen-3>.screen-wrap>.featues>.featues-item>.featues-warp{
+    text-align: center;
+    font-weight: bolder;
+    margin: 30px auto;
+    color: #f7f7f7;
+}
+.screen-3>.screen-wrap>.featues>.featues-item>.featues-warp h{
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: bolder;
+}
+.screen-3>.screen-wrap>.featues>.featues-item>.featues-warp p{
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 4px;
+}
+
+.screen-4{
+    position: relative;
+    overflow: hidden;
+    background-color: #FAFAFA;
+
+}
+.screen-4>.screen-wrap{
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin:0 auto;
+}
+.screen-4>.screen-wrap>.screen-title{
+    text-align: center;
+    font-size: 48px;
+    line-height: 48px;
+    color: #f04747;
+    margin-top: 135px;
+}
+.screen-4>.screen-wrap>.screen-desc{
+    text-align: center;
+    margin-top: 30px;
+}
+.screen-4>.screen-wrap>.phones{
+    position: relative;
+    display: block;
+    width: 1200px;
+    height: 400px;
+    left: 0;
+    right: 0;
+    margin: 60px  auto;
+}
+.screen-4>.screen-wrap>.phones>.phone{
+    display: block;
+    width: 240px;
+    height: 360px;
+    float: left;
+    padding-right: 70px;
+}
+.screen-4>.screen-wrap>.phones>.phone:last-child{
+    padding-right: 0;
+}
+.screen-4>.screen-wrap>.phones>.phone>p{
+    text-align: center;
+}
+.screen-4>.screen-wrap>.phones>.phone>p.phone_title{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #2c3238;
+    margin-top: 30px;
+}
+.screen-4>.screen-wrap>.phones>.phone>p.phone_desc{
+    font-size: 12px;
+    line-height: 12px;
+    color: #93999f;
+    margin-top: 8px;
+}
+
+.screen-5{
+    position: relative;
+    overflow: hidden;
+    background-color:  #d9dde1;
+    background-size: cover;
+}
+.screen-5 >.screen-title {
+    display: block;
+    padding-top: 125px;
+    font-size: 48px;
+    color: #f04747;
+    text-align: center;
+}
+.screen-5 >.screen-desc {
+    display: block;
+    padding-top: 20px;
+    color: #4d555d;
+    text-align: center;
+}
+.screen-5>.img{
+    position: absolute;
+    width: 100%;
+    height: 572px;
+    left: 0;
+    right: 0;
+    margin: 0 auto 0 auto;
+    bottom: -150px;
+    background: #d9dde1 url("../img/bg-screen-5.png")  no-repeat bottom;
+}
+
+
+.screen-buy{
+    position: relative;
+    height: 320px;
+    background: #2b333b url("../img/bg-screen-buy.png") no-repeat center;
+}
+.screen-buy__btn{
+    position: absolute;
+    display: inline-block;
+    background-color: #f04747;
+    width: 250px;
+    height: 78px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    line-height: 78px;
+    text-align: center;
+    color: #f7f7f7;
+}
+
+.foot{
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    color: #f7f7f7;
+    background-color: #07111b;
+}
